@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    padding: 0;
+}
+.container{
+    width: 980px;
+    margin: auto;
+    font-family: tahoma;
+}
+.logo-wapper{
+    background: #272f54;
+    text-align: center;
+    padding: 32px;
+    width: 980px;
+    height: 120px;
+}
+.logo-wapper img{
+    width: 200px;
+    height: 70px;
+
+}
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    background: #cb7802;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+
+.menu-title ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    list-style: none;
+    color: #ffffff;
+    font-size: 11px;
+}
+.item h3 p{
+    color: #000000;
+}
+.menu-title a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.title a{
+    text-transform: uppercase;
+    color: #272f54;
+    text-decoration: none;
+}
+.search{
+    padding: 5px;
+}
+.search button{
+    color:#ffffff;
+    background: #272f54;
+    padding: 5px;
+}
+
+.news{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+   
+    
+}
+.item{
+    border: 1px solid #c2c2c2;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+}
+.item h3{
+    color: #ad3f00;
+}
+footer{
+    text-align: center;
+    background: #272f54;
+    padding: 20px;
+    color: #ffffff;
+    margin: 5px;
+}
+.sale{
+    position: absolute;
+}
